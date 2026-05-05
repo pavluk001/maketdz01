@@ -25,9 +25,13 @@ font-weight: 700;
 line-height: 1.19;
 letter-spacing: 0.78px;
 text-decoration: none;
-
-
 }
+
+
+.logo :hover{
+    color: var(--logo-color);
+}
+
 
 
 .logo-part{
@@ -193,7 +197,7 @@ a:hover{
 
 
 
-.hero{
+.hero-section{
     background-color: var(--background-footer-color);
  text-align: center;
     background-color: var(--background-footer-color);
@@ -412,11 +416,7 @@ letter-spacing: 0.42px;
 
 }
 
-.header-contact{
-     margin-left: px;
-     
-     
-}
+
 
 .header-contacts {
     display: flex;
@@ -481,6 +481,79 @@ height: 294px;
 
 
 .logo-part :hover{
-    color: var(--footer-color);
+    color: var(--logo-color);
 }
+
+.hero{
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.main-list{
+    display: flex;
+padding-left: 300px;
+padding-right: 300px;
+gap: 8px;
+border-radius: 4px;
+padding-bottom: 34px;
+
+
+}
+
+
+.header-detale{
+    display: flex;
+}
+
+
+.main-list :hover{
+    color: #FFFFFF;
+    
+}
+
+.main-itemss{
+    background-color: var(--header-color);
+   padding: 6px 22px;
+ border-radius: 4px;
+border: none;
+
+margin-top: 100px;
+}
+
+
+.filter-list{
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.48px;
+white-space: nowrap;
+width: 81px;
+margin-right: 20px;
+margin-top: 34px;
+padding: 6px 25px;
+
+    
+}
+
+
+
+
+
+.main-info{
+    display: flex;
+flex-wrap: wrap;
+
+gap: 30px;
+
+}
+
 
