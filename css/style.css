@@ -28,7 +28,7 @@
     }
 
 
-    .logotype :hover{
+    .logotype:hover{
         color: var(--logo-color);
     }
 
@@ -48,7 +48,7 @@
 
     }
 
-    .logo-partf :hover{
+    .logo-partf:hover{
         color: var(--footer-color);
     }
 
@@ -282,6 +282,7 @@
     line-height: 24px;
     letter-spacing: 0.42px;
     padding-right: 30px;
+    
 
         }
 
@@ -294,6 +295,7 @@
     letter-spacing: 1.08px;
     text-align: center;
     margin-bottom: 50px;
+    
         }
 
 
@@ -496,7 +498,8 @@
 
 
     .work{
-        padding: 94px 0;
+       margin-top: 118px;
+       margin-bottom: 118px;
     }
 
 
@@ -534,7 +537,7 @@
     }
 
 
-    .main-list :hover{
+    .main-list:hover{
         color: var(--footer-color);
         
     }
@@ -545,10 +548,13 @@
     border-radius: 4px;
     border: none;
     margin-top: 100px;
+    
     }
 
 
-
+.main-items{
+    width: 370px;
+}
 
     
      
@@ -582,11 +588,12 @@ border-radius: 4px;
 
 
     .main-info{
-        display: grid;
+        display: flex;
     flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-bottom: 94px;
+
     }
 
 
