@@ -33,7 +33,7 @@
 
 
     .logo-partf{
-    
+
         color: var(--logo-color);
     font-family: Raleway;
     font-size: 26px;
@@ -48,9 +48,7 @@
 
    
 
-.footer .logo-partf a:hover{
-    color: var(--footer-color);
-}
+
 
 
 
@@ -117,6 +115,7 @@
     letter-spacing: 0.42px;
     text-align: center;
     margin-top: 10px;
+    
 
     }
 
@@ -139,6 +138,13 @@
     line-height: 1.62;
     letter-spacing: 0.48px;
     }
+
+
+.logo-partf a{
+    color: var(--footer-color);
+}
+
+
 
 
     .header-detales{
@@ -212,9 +218,13 @@
         background-color: var(--background-footer-color);
         padding-bottom: 200px;
         padding-top: 200px;
-       margin-bottom: 94px;
+       
     }
 
+
+.adventages{
+    padding-top: 94px;
+}
 
 
 
@@ -273,8 +283,8 @@
         }
 
 .work{
-    padding-top: 118px;
-    padding-bottom: 118px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -291,7 +301,9 @@
     
         }
 
-
+.work-image{
+    display: block;
+}
 
 
 
@@ -346,12 +358,12 @@
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
-
+padding-top: 20px;
     }
 
     .main-text{
         color: var(--mainli-color);
-
+padding-bottom: 4px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -373,7 +385,10 @@
 
 
 
-
+.main-infoimage{
+display: block;
+width: 100%;
+}
 
 
 
@@ -425,11 +440,8 @@
     .header-list{
         display: flex;
         gap: 50px;
-    
-    
-
-
     }
+
 
 
 
@@ -473,15 +485,19 @@
         margin-left: 0;
     width: 370px;
     height: 294px;
+ 
     }
 
 
 
     .team-list{
         display: flex;
-        padding-bottom: 94px;
         gap: 30px;
+        justify-content: center;
     }
+
+
+
 
 
 
@@ -493,12 +509,11 @@
 
 
 
-    .logo-part :hover{
-        color: var(--logo-color);
-    }
+   
 
     .hero{
         background-color: #FFFFFF;
+       
     }
 
 
@@ -510,6 +525,9 @@
     .main-list{
         display: flex;
     gap: 8px;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 34px;
     }
 
 
@@ -536,7 +554,7 @@
 
 
 .main-items{
-    width: 270px;
+    width: 100%;
 }
 
     
@@ -559,6 +577,7 @@ display: flex;
 background-color: var(--mainulfon-color);
 color: #000;
 border-radius: 4px;
+
 }
 
 
@@ -572,11 +591,10 @@ border-radius: 4px;
 
     .main-info{
         display: flex;
-    flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-bottom: 94px;
-
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
     }
 
 
