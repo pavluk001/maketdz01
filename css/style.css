@@ -41,9 +41,22 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    margin-right: 93px;
+    margin-right: 20px;
     }
 
+
+
+    .logo{
+        
+        color: var(--logo-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-right: 50px;
+    }
  
 
    
@@ -155,7 +168,6 @@
     line-height: 1.14;
     letter-spacing: 0.28px;
 
-
     }
 
     .adventages-titles{
@@ -208,7 +220,20 @@
 
 .team-image{
     padding-bottom: 30px;
+    width: 250px;
+     display: block;
+    width: 100%;
+   
+}   
+
+
+.team-div{
+    padding-bottom: 30px;
+    width: 250px;
+     display: block;
+    width: 100%;
 }
+
 
 
 
@@ -388,6 +413,7 @@ padding-bottom: 4px;
 .main-infoimage{
 display: block;
 width: 100%;
+
 }
 
 
@@ -429,6 +455,7 @@ width: 100%;
     .header{
         padding-top: 24px;
         padding-bottom: 25px;
+        
     }
 
     .header-wrap{
@@ -440,6 +467,7 @@ width: 100%;
     .header-list{
         display: flex;
         gap: 50px;
+    
     }
 
 
@@ -467,7 +495,7 @@ width: 100%;
     .header-navigation{
         display: flex;
         align-items: center;
-    
+    margin-right: 93px;
     }
 
 
@@ -513,10 +541,9 @@ width: 100%;
 
     .hero{
         background-color: #FFFFFF;
-       
+         padding-top: 94px;
+    padding-bottom: 34px;
     }
-
-
 
 
 
@@ -526,8 +553,7 @@ width: 100%;
         display: flex;
     gap: 8px;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 34px;
+  
     }
 
 
@@ -578,6 +604,7 @@ background-color: var(--mainulfon-color);
 color: #000;
 border-radius: 4px;
 
+
 }
 
 
@@ -595,6 +622,19 @@ border-radius: 4px;
     padding-bottom: 94px;
 display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
     }
 
+
+.section-div{
+    padding: 24px 
+}
+
+.footer-info{
+    padding-top: 20px;
+}
+
+.footer-item{
+    padding-bottom: 9px;
+}
 
