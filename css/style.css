@@ -541,8 +541,8 @@ width: 100%;
 
     .hero{
         background-color: #FFFFFF;
-         padding-top: 94px;
-    padding-bottom: 94px;
+         margin-top: 94px;
+    margin-bottom: 94px;
     
     }
 
@@ -562,9 +562,7 @@ width: 100%;
 
 
 
-    .header-detale{
-        display: flex;
-    }
+ 
 
 
     .main-list:hover{
@@ -634,10 +632,10 @@ margin-top: 50px;
 }
 
 .footer-info{
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-item{
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
