@@ -7,6 +7,7 @@
     --logo-color:#000;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --background-footer-color: #2F303A;
+    --line-color: #EEEEEE;
     }
 
     body{
@@ -383,12 +384,11 @@
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
-padding-top: 20px;
+
     }
 
     .main-text{
         color: var(--mainli-color);
-padding-bottom: 4px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -542,7 +542,8 @@ width: 100%;
     .hero{
         background-color: #FFFFFF;
          padding-top: 94px;
-    padding-bottom: 34px;
+    padding-bottom: 94px;
+    
     }
 
 
@@ -573,14 +574,16 @@ width: 100%;
 
         .main-itemss{
         background-color: var(--mainulfon-color);
-    padding: 6px 22px;
+   
     border-radius: 4px;
     border: none;
     }
 
 
-.main-items{
+.main-itemsf{
     width: 100%;
+   border-width: 1px;
+border-style: groove;
 }
 
     
@@ -619,10 +622,10 @@ border-radius: 4px;
     .main-info{
         display: flex;
     gap: 30px;
-    padding-bottom: 94px;
+    
 display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 50px;
+margin-top: 50px;
     }
 
 
