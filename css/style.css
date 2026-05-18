@@ -639,3 +639,13 @@ margin-top: 50px;
     margin-bottom: 9px;
 }
 
+
+.main-info{
+        display: flex;
+    gap: 30px;
+    
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+margin-top: 50px;
+    }
+
